@@ -1,16 +1,36 @@
 {
-    "React Stateless Component": {
-      "prefix": "rsc",
-      "body": [
-        "import React from \"react\";",
-        "\n",
-        "const ${1:MyComponent} = (props) => {",
-        "\treturn (",
-        "\t)",
-        "}",
-        "\n",
-        "export default  ${1:MyComponent};"
-      ],
-      "description": "React Stateless Component"
-    }
+  "React Functional Component": {
+    "prefix": "rfc",
+    "body": [
+      "import React from \"react\";",
+      "\n",
+      "const ${1:MyComponent} = (props) => {",
+      "\treturn (",
+      "\t\t<div>",
+      "\t\t</div>",
+      "\t)",
+      "}",
+      "\n",
+      "export default  ${1:MyComponent};"
+    ],
+    "description": "React Functional Component"
+  },
+  "React Class Component": {
+    "prefix": "rcc",
+    "body": [
+      "import React from \"react\";",
+      "\n",
+      "class ${1:MyComponent} extends React.Component {",
+      "\trender () {",
+      "\t\treturn (",
+      "\t\t\t<div>",
+      "\t\t\t</div>",
+      "\t\t)",
+      "\t}",
+      "}",
+      "\n",
+      "export default  ${1:MyComponent};"
+    ],
+    "description": "React Class Component"
   }
+}
