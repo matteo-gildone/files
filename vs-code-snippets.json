@@ -1,0 +1,16 @@
+{
+    "React Stateless Component": {
+      "prefix": "rsc",
+      "body": [
+        "import React from \"react\";",
+        "\n",
+        "const ${1:MyComponent} = (props) => {",
+        "\treturn (",
+        "\t)",
+        "}",
+        "\n",
+        "export default  ${1:MyComponent};"
+      ],
+      "description": "React Stateless Component"
+    }
+  }
